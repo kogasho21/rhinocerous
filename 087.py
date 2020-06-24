@@ -11,7 +11,7 @@ domain = rs.CurveDomain(curve)
 n=60
 dt = (domain[1] - domain[0]) / n
 
-for i in rs.frange(0, n, 1):
+for i in rs.frange(0, n, 1):
     t = i * dt
     xyz = rs.EvaluateCurve(curve, t)
     rs.AddPoint(xyz)

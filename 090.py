@@ -9,13 +9,13 @@ def ccx():
         return
 
     for intersection in intersection_list:
-        print "Point"
-        print "Intersection point on first curve:",
-               intersection[1]
-        print "Intersection point on second curve:",
-               intersection[3]
-        print "First curve parameter:",
-               intersection[5]
-        print "Second curve parameter:",
-               intersection[7]
+        print ("Point")
+        print ("Intersection point on first curve:")
+        print (intersection[1])
+        print ("Intersection point on second curve:")
+        print (intersection[3])
+        print ("First curve parameter:")
+        print (intersection[5])
+        print ("Second curve parameter:")
+        print (intersection[7])
 ccx()
